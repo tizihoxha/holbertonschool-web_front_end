@@ -47,11 +47,16 @@ h6
 	font-weight: var(--font-weight-bold);
 }
 
-a:link:visited:hover:active {
+a:link,
+a:visited,
+a:hover,
+a:active,{
 	color: #161616;
 	text-decoration: none;
 	font-style: italic;
+	text-decoration: underline;
 	background-color: var(--color-light-grey);
+
 }
 
 .visually-hidden {
